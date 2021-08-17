@@ -20,6 +20,7 @@ public:
     void chosefedora();
     void chosedebian();
     void chosearch();
+    void eventhandling();
 
 public slots:
      void onClicked();

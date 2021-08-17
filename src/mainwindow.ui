@@ -77,6 +77,9 @@
     <property name="text">
      <string>Get Distro Info</string>
     </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
     <property name="flat">
      <bool>false</bool>
     </property>
@@ -124,6 +127,9 @@
   <action name="btnabt">
    <property name="text">
     <string>About</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
    </property>
   </action>
  </widget>
