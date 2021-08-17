@@ -14,10 +14,12 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void defaultsetup();
     void getOSinfo();
     void choseubuntu();
     void chosefedora();
     void chosedebian();
+    void chosearch();
 
 public slots:
      void onClicked();
