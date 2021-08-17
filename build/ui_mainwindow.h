@@ -72,6 +72,7 @@ public:
         btn0 = new QPushButton(centralwidget);
         btn0->setObjectName(QString::fromUtf8("btn0"));
         btn0->setGeometry(QRect(270, 140, 111, 36));
+        btn0->setAutoDefault(true);
         btn0->setFlat(false);
         lbl1 = new QLabel(centralwidget);
         lbl1->setObjectName(QString::fromUtf8("lbl1"));
@@ -101,6 +102,9 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Qt Distro Demo by MARKMENTAL", nullptr));
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
         btnabt->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
+#if QT_CONFIG(shortcut)
+        btnabt->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+A", nullptr));
+#endif // QT_CONFIG(shortcut)
         lbl0->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         btn0->setText(QCoreApplication::translate("MainWindow", "Get Distro Info", nullptr));
         lbl1->setText(QString());
