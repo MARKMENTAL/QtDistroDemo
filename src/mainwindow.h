@@ -25,6 +25,7 @@ public:
 public slots:
      void onClicked();
      void abtClicked();
+     void resetClicked();
 
 private:
     Ui::MainWindow *ui;
