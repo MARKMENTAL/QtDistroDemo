@@ -4,11 +4,10 @@ The logo on Tux's chest will change according to the distro that you get info ab
 A Linux build is included.
 
 # Screenshots
-![distrodemo0](https://user-images.githubusercontent.com/17995774/129645528-b18ebe33-00d2-4bbd-9012-85b1b9fdcb78.png)
+![v10](https://user-images.githubusercontent.com/17995774/129969178-a116d2c3-5e31-45e4-a081-226bc0965b08.png)
 
-![distrodemo1](https://user-images.githubusercontent.com/17995774/129645551-e811c178-dd5f-43ca-b481-4a9399fbc156.png)
+![v12](https://user-images.githubusercontent.com/17995774/129969180-e020155a-2865-4572-8dd3-234ee914e950.png)
 
-![distrodemo2](https://user-images.githubusercontent.com/17995774/129645552-0cc541b8-30c8-47f0-be15-70ac028bd33f.png)
+![v13](https://user-images.githubusercontent.com/17995774/129969181-ab4906ba-a684-4bba-bfc0-e66cf00102be.png)
 
-![distrodemo3](https://user-images.githubusercontent.com/17995774/129645553-7eefed2d-3eff-4614-9e27-4c588c57eea7.png)
-
+![v14](https://user-images.githubusercontent.com/17995774/129969182-febd18ba-621b-4d61-a87e-ed5bb5a1bf7d.png)
