@@ -50,11 +50,11 @@ void MainWindow::choseubuntu(){
 void MainWindow::choosemate(){
     ui->lbldistroinf->setText("Ubuntu-MATE is a Debian-based distribution of Linux which uses a customized \nVersion of the MATE desktop environment, which is lightweight and highly customizeable\n"
     "Package Manager: APT\nPackage Manager Software Installation Example: 'sudo apt-get install firefox'");
-    ui->lbl0->setStyleSheet("QLabel {color : #dd4814;}");
+    ui->lbl0->setStyleSheet("QLabel {color : #9ad65e;}");
     ui->lbl0->setText("Ubuntu-MATE");
     QString url = R"(tuxubuntumate.png)";
     QPixmap img(url);
-    ui->lbl1->setPixmap();
+    ui->lbl1->setPixmap(img);
 }
 
 void MainWindow::chosedebian(){
