@@ -87,7 +87,7 @@ public:
         lbl1->setAlignment(Qt::AlignCenter);
         lbldistroinf = new QLabel(centralwidget);
         lbldistroinf->setObjectName(QString::fromUtf8("lbldistroinf"));
-        lbldistroinf->setGeometry(QRect(80, 130, 471, 121));
+        lbldistroinf->setGeometry(QRect(80, 130, 471, 131));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Noto Sans"));
         font1.setPointSize(10);
