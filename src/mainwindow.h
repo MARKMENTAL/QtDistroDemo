@@ -17,6 +17,7 @@ public:
     void defaultsetup();
     void getOSinfo();
     void choseubuntu();
+    void choosemate();
     void chosefedora();
     void chosedebian();
     void chosearch();

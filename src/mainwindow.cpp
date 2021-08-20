@@ -12,6 +12,7 @@ void MainWindow::defaultsetup(){
     ui->lbldistroinf->clear();
     ui->cmb0->clear();
     ui->cmb0->addItem("Ubuntu");
+    ui->cmb0->addItem("Ubuntu-MATE");
     ui->cmb0->addItem("Fedora");
     ui->cmb0->addItem("Debian");
     ui->cmb0->addItem("Arch");
@@ -30,6 +31,7 @@ void MainWindow::onClicked(){
 
 void MainWindow::getOSinfo(){
     if (ui->cmb0->currentText() =="Ubuntu"){choseubuntu();}
+    if (ui->cmb0->currentText() =="Ubuntu-MATE"){choosemate();}
     if (ui->cmb0->currentText() =="Fedora"){chosefedora();}
     if (ui->cmb0->currentText() =="Debian"){chosedebian();}
     if (ui->cmb0->currentText() =="Arch"){chosearch();}
@@ -43,6 +45,16 @@ void MainWindow::choseubuntu(){
     QString url = R"(tuxubuntu.png)";
     QPixmap img(url);
     ui->lbl1->setPixmap(img);
+}
+
+void MainWindow::choosemate(){
+    ui->lbldistroinf->setText("Ubuntu-MATE is a Debian-based distribution of Linux which uses a customized \nVersion of the MATE desktop environment, which is lightweight and highly customizeable\n"
+    "Package Manager: APT\nPackage Manager Software Installation Example: 'sudo apt-get install firefox'");
+    ui->lbl0->setStyleSheet("QLabel {color : #dd4814;}");
+    ui->lbl0->setText("Ubuntu-MATE");
+    QString url = R"(tuxubuntumate.png)";
+    QPixmap img(url);
+    ui->lbl1->setPixmap();
 }
 
 void MainWindow::chosedebian(){
@@ -101,4 +113,3 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
